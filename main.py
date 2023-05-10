@@ -27,6 +27,7 @@ paddleTwo = turtle.Turtle()
 paddleTwo.penup()
 paddleTwo.speed(0)
 paddleTwo.shape("square")
+paddleTwo.shapesize(stretch_wid= -1, stretch_len = 5)
 
 
 

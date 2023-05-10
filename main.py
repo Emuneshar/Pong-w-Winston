@@ -18,10 +18,14 @@ ball.shapesize(0.5, 0.5)
 
 paddleOne = turtle.Turtle()
 paddleOne.penup()
+paddleOne.speed(0)
+paddleOne.shape("square")
 
 
 paddleTwo = turtle.Turtle()
 paddleTwo.penup()
+paddleTwo.speed(0)
+paddleTwo.shape("square")
 
 
 

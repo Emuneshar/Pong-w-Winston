@@ -20,18 +20,18 @@ paddleOne = turtle.Turtle()
 paddleOne.penup()
 paddleOne.speed(0)
 paddleOne.shape("square")
-paddleOne.shapesize(stretch_len = 5, stretch_wid = -1)
+paddleOne.shapesize(stretch_len = -1, stretch_wid = 5)
 paddleOne.color("red")
-paddleOne.goto(250, 0)
+paddleOne.goto(350, 0)
 
 
 paddleTwo = turtle.Turtle()
 paddleTwo.penup()
 paddleTwo.speed(0)
 paddleTwo.shape("square")
-paddleTwo.shapesize(stretch_wid= -1, stretch_len = 5)
+paddleTwo.shapesize(stretch_len = -1, stretch_wid = 5)
 paddleTwo.color("green")
-paddleTwo.goto(-250, 0)
+paddleTwo.goto(-350, 0)
 
 
 while True:

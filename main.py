@@ -10,4 +10,18 @@ window.tracer(0)
 score_left = 0
 score_right = 0
 
+ball = turtle.Turtle()
+ball.penup()
+ball.shape("circle")
+ball.color("blue")
+ball.shapesize(0.5, 0.5)
+
+paddleOne = turtle.Turtle()
+paddleOne.penup()
+
+
+paddleTwo = turtle.Turtle()
+paddleTwo.penup()
+
+
 

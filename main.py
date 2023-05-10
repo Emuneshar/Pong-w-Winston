@@ -21,6 +21,7 @@ paddleOne.penup()
 paddleOne.speed(0)
 paddleOne.shape("square")
 paddleOne.shapesize(stretch_len = 5, stretch_wid = -1)
+paddleOne.color("red")
 
 
 paddleTwo = turtle.Turtle()
@@ -28,6 +29,9 @@ paddleTwo.penup()
 paddleTwo.speed(0)
 paddleTwo.shape("square")
 paddleTwo.shapesize(stretch_wid= -1, stretch_len = 5)
+paddleTwo.color("green")
 
 
+while True:
+  window.update()
 
